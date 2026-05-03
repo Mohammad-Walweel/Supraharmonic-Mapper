@@ -1,9 +1,3 @@
-/*
- * SUPRAHARMONICS METER - COMPLETE SYSTEM (A, B, & C)
- * Hardware: Teensy 4.1 + Adafruit 2.8" ILI9341 TFT Display
- * Purpose: Generate virtual signal, perform FFT, and render a live graphical interface.
- */
-
 #include <arm_math.h>     // Subsystem B: Math Engine
 #include <SPI.h>          // Subsystem C: Hardware Communication
 #include <ILI9341_t3.h>   // Subsystem C: Optimized Screen Driver
